@@ -18,3 +18,4 @@ Antes de proponer o implementar cambios sustantivos, leer completamente `docs/fi
 - No sobrescribir divergencias locales: rescatarlas, descartarlas conscientemente o convertirlas en propuesta.
 - Mantener el documento autocontenido; un consumidor debe poder aplicarlo sin acceso a este repositorio.
 - Verificar `scripts/sync.ps1 -Mode check` antes de cerrar una publicación local.
+- Publicar los cambios aceptados en `main` del remoto canónico y acompañar cada versión normativa con su tag semántico.

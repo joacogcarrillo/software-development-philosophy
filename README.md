@@ -2,6 +2,8 @@
 
 Este repositorio es la fuente canónica de un marco de desarrollo portable. Los proyectos consumidores conservan un snapshot completo en `docs/filosofia-desarrollo-software.md` para seguir siendo autónomos, pero no lo editan localmente.
 
+Remoto canónico: [joacogcarrillo/software-development-philosophy](https://github.com/joacogcarrillo/software-development-philosophy).
+
 ## Topología
 
 - `docs/filosofia-desarrollo-software.md`: fuente normativa compartida.
@@ -55,4 +57,4 @@ Se usa versionado semántico:
 - Minor para reglas o protocolos nuevos compatibles.
 - Major para cambios incompatibles o garantías eliminadas.
 
-Cada consumidor recibe un `docs/filosofia-desarrollo-software.lock.json` con versión y hash. La publicación en un remoto puede agregarse sin cambiar este contrato de consumo.
+Cada consumidor recibe un `docs/filosofia-desarrollo-software.lock.json` con repositorio de origen, versión y hash. `main` conserva la historia aceptada y cada versión publicada recibe un tag `vMAJOR.MINOR.PATCH`.

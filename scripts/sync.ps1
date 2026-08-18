@@ -118,7 +118,7 @@ foreach ($evaluation in $evaluations) {
   }
 
   $lock = [ordered]@{
-    source = 'software-development-philosophy'
+    source = 'https://github.com/joacogcarrillo/software-development-philosophy'
     document = 'docs/filosofia-desarrollo-software.md'
     version = $version
     sha256 = $sourceHash
