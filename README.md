@@ -32,6 +32,13 @@ Copiar `consumers.example.json` como `consumers.local.json` y completar rutas ab
 ./scripts/sync.ps1 -Mode sync
 ```
 
+Si la política local de PowerShell bloquea scripts, se puede habilitar únicamente para ese proceso sin cambiar la configuración del sistema:
+
+```powershell
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File ./scripts/sync.ps1 -Mode check
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File ./scripts/sync.ps1 -Mode sync
+```
+
 Durante la incorporación inicial de copias previamente auditadas puede usarse:
 
 ```powershell
