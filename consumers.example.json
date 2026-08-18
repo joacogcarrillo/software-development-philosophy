@@ -1,0 +1,8 @@
+{
+  "consumers": [
+    {
+      "name": "mi-proyecto",
+      "path": "C:\\ruta\\absoluta\\al\\repositorio"
+    }
+  ]
+}
